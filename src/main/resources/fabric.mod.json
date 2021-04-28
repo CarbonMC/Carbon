@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "carbon",
+  "version": "${version}",
+  "name": "Carbon",
+  "description": "A Minecraft automation framework",
+  "authors": [
+	"DeathsGun"
+  ],
+  "contact": {
+	"repo": "https://github.com/CarbonMC/Carbon"
+  },
+  "license": "MPL-2.0",
+  "icon": "assets/carbon/icon.png",
+  "environment": "client",
+  "entrypoints": {
+	"main": [
+	  "xyz.deathsgun.carbon.CarbonMod"
+	]
+  },
+  "mixins": [
+	"carbon.mixins.json"
+  ],
+  "depends": {
+	"fabricloader": ">=0.11.3",
+	"fabric": "*",
+	"minecraft": "1.16.5"
+  }
+}
